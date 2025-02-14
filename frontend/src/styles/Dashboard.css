@@ -1,0 +1,98 @@
+.dashboard-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.skills-section {
+  margin-bottom: 20px;
+}
+
+.add-skills {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.add-skills input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-skills button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-skills button:hover {
+  background-color: #0056b3;
+}
+
+.find-matches {
+  margin-bottom: 20px;
+}
+
+.find-matches button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.find-matches button:hover {
+  background-color: #218838;
+}
+
+.match-profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.match-profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.dashboard-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboard-actions button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dashboard-actions button:hover {
+  background-color: #0056b3;
+}

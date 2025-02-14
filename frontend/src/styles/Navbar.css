@@ -1,0 +1,38 @@
+/* General Navbar styling */
+nav {
+    background-color: #333; /* Dark background */
+    padding: 1rem; /* Add some padding around */
+  }
+  
+  .navbar {
+    display: flex; /* Align items horizontally */
+    list-style-type: none; /* Remove list bullets */
+    justify-content: space-around; /* Space out the links evenly */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .nav-item {
+    font-size: 1.2rem; /* Larger font size */
+    text-align: center; /* Center text in each link */
+  }
+  
+  .nav-item a {
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline from links */
+    padding: 0.5rem 1rem; /* Add some padding around the link */
+    display: inline-block; /* Make it a block-level element */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  .nav-item a:hover {
+    background-color: #007bff; /* Change background color when hovered */
+    color: #fff; /* Keep text white */
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  .nav-item a.active {
+    background-color: #0056b3; /* Active link background color */
+    border-radius: 4px; /* Rounded corners */
+  }
+  

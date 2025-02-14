@@ -1,0 +1,40 @@
+.home-container {
+    margin-top: 80px; /* Adds space below navbar */
+    text-align: center;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 32px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .register-btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .register-btn:hover {
+    background-color: #0056b3;
+  }
+  
